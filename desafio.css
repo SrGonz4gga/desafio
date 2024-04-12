@@ -1,0 +1,278 @@
+html{
+    font-size: 16px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --body-bg: black;
+    --body-color: white;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--body-bg);
+    position: relative;
+    left: 100px;
+
+}
+
+
+a{
+    text-decoration: none;
+    color:var(--body-color);
+}
+
+#jogos, #times, #competicoes{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+hr{
+    position: relative;
+    right: 100px;
+}
+
+.botoescabecalho{
+    width: 50px;
+    height: 50px;
+    position:relative;
+    left: 1200px;
+    background-color: var(--body-bg);
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    border-color: aquamarine;
+}
+
+
+
+.botoescabecalho:hover{
+    transform: scale(1.10);
+}
+
+
+
+button{
+    background-color: var(--body-bg);
+    border-radius: 100%;
+    height: 40px;
+}
+
+.cabecalho1{
+    background-color:var(--body-bg) ;
+    height: 100px;
+}
+
+.cabecalho1 > p{
+    text-align: center;
+    margin-left: 550px;
+    position: relative;
+    bottom: 75px;
+    width: 400px;
+
+}
+
+
+#desc{
+    position: relative;
+    right: 200px;
+    width: 1900px;
+    height: 80px;
+    background-image:url("desafioimagens/back2.jpeg")
+    
+}
+
+#desctexto > strong {
+    position: relative;
+    top: 30px;
+    color: var(--body-bg) ;
+}
+
+body > header > div > button{
+    position: relative;
+    bottom: 125px;
+    left: 1000px;
+    height: 45px;
+    width: 45px;
+    margin-left: 20px;
+}
+
+
+.articleprincipal{
+    border-color:gray;
+    border-style:outset;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 15px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 1450px;
+}
+
+
+#fontedafoto{
+    margin-top: 140px;
+
+}
+
+.articlesecundario{
+    display: inline-block;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 200px;
+    margin-left:15px;
+    margin-right: 130px;
+    margin-top: 100px;
+}
+
+.articleprincipal > a > h2, .articleprincipal > a > p {
+    position:relative;
+    text-align: left;
+    letter-spacing: 1.5px;
+    left:900px;
+    bottom: 400px;
+    width: 550px;
+
+}
+
+#fonte{
+    display:inline;
+    height: 13px;
+}
+
+.jornalista{
+    font-size: 15px;
+    font-style: italic;
+}
+
+#topimage{
+    height: 500px;
+    border-radius:5px;
+}
+
+.imagenssecundarias{
+    height: 250px;
+    border-radius: 5px;
+}
+
+#fonte{
+    height: 35px;
+    position: relative;
+    top:10px;
+}
+
+
+
+.articlesecundario > article > p{
+    position:relative;
+    bottom: 350px;
+    left: 750px;
+    width: 500px;
+}
+
+
+p, a, div, section, h1, h3, img{
+    color: var(--body-color);
+
+    transition: all 0.5s;
+}
+
+#desc{
+    text-align: center;
+}
+
+#logo {
+    max-width:100% ;
+    max-height:100% ;
+    height: 100px;  ;
+    width:100px ;
+    position: relative;
+    left: 50px;
+}
+
+
+.memo{
+    display: inline-block;
+    margin-right: 45px;
+    margin-bottom: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.competicoes{
+    margin-bottom: 100px;
+}
+
+.articlesecundario> a:hover, h3:hover, .imagenssecundarias:hover, h1:hover, .articlesecundario> p:hover, .memoimg:hover{
+    transform: scale(1.1);
+    color:aquamarine;
+}
+
+h2:hover{
+    color:aquamarine;
+}
+
+.competicoes > a > button:hover, .times > a > button:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(255, 255, 255, 0.5));
+    border-color: var(--body-color);
+    transform: scale(1.05);
+    
+}
+
+.memoimg{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.competicoes > a > button, .times > a > button{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: var(--body-color);
+    margin-right: 20px;
+    border-width: 1px;
+    background-color: var(--body-bg);
+    border-radius: 10%;
+    height: 70px;
+    width: 190px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.textobotoes{
+    padding-bottom: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.imglogos{
+    position: relative;
+    top: 12px;
+    margin-right: 10px;
+}
+
+footer {
+
+    position: relative;
+    right: 100px;
+    margin-top: 100px;
+    background-image:url("desafioimagens/back2.jpeg") ;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px 0;
+    color: var(--body-bg); 
+}
+
+footer div {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+
